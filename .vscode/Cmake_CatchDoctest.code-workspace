@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+    ],
+    "settings": {
+        
+        "cmake.cmakePath": "C:/Users/kipke/Desktop/coding/CMakeTest/Cmake_CatchDoctest/.venv/Lib/site-packages/cmake/data/bin/cmake.exe",
+
+    }
+}

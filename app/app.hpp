@@ -4,7 +4,6 @@
 #define _APP_MAIN_H
 
 
-
-void print_hello();
+int adding_three_numbers(int a, int b ,int c);
 
 #endif

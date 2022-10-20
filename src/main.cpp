@@ -2,7 +2,8 @@
 
 #include <iostream>
 #include "main.hpp"
-#include "app/app.hpp"
+#include "app.hpp"
+
 using namespace std;
 int add_two_numbers(int a, int b)
 {
@@ -10,11 +11,17 @@ int add_two_numbers(int a, int b)
     return sum;
 }
 
-int main() {
-    int number = add_two_numbers(1,2);
 
-    cout << number << endl;
-    print_hello();
-    cout << "hello world" << endl;
+int factorial(int number) { return number <= 1 ? number : factorial(number - 1) * number; }
+
+
+int main()
+{
+    app_main();
+}
+
+
+int app_main() {
+    int number = add_two_numbers(1,2);
     return number;
 }

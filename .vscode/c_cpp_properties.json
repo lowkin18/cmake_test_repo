@@ -4,7 +4,10 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/app"
+                "${workspaceFolder}/app",
+                "${workspaceFolder}/tests",
+                "${workspaceFolder}/tests/catch2/src/**",
+                "${workspaceFolder}/build/generated-includes"
             ],
             "defines": [
                 "_DEBUG",
@@ -12,10 +15,11 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.22621.0",
-            "compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\g++",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4
